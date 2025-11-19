@@ -1,0 +1,99 @@
+"""
+COLLECTION TOPIC PYTHON:-
+
+1)LIST 2)TUPEL AND 3)DICTIONARY:-
+
+1)LIST:-
+   
+  - list is collection data type which is contain similar and dis-similar data type
+    element in single-location.
+  - list which is presnted by [] braces.
+  - list is indexble,sequence data type,orderable,mutable(we can change it)
+  - list can contain duplicate element
+
+  syntax:
+   var=[]
+
+
+LIST METHOD:
+-append():
+using of append method we can store data in existing list append add a new element
+at end of the list.
+
+syntax:
+list.append(new_element)
+
+-extend():
+using of extend method we can store one or more element at one time in extisting ist.
+
+syntax:
+list.extend([element1],[element2],.....)
+
+-insert():
+using of insert method we can store element at specific index position.
+
+syntax:
+list.insert(index,new_element)
+
+list indexing:-
+->list indexing :- by default list always start- from 0
+    0   1  2  3  4
+l1=[10,20,30,40,50]
+    -5 -4 -3 -2 -1
+
+METHOD LIST:
+-remove():
+using of remove method we can remove - element from the list.
+
+syntax:
+l1.remove("element")
+
+-pop():
+using of pop method we can remove index-element of list.
+
+syntax:
+l1.pop()
+
+-clear():
+using of clear method we can remove all-element from the existing list.
+
+syntax:
+l1.clear()
+
+-del():
+using of del keyword we can deleet from the memory.
+
+syntax:
+del l1
+
+-index():
+using index method we can find out specific index position of element.
+
+syntax:
+list.index(value)
+
+
+
+(2)tuple:
+- tupale is a collection dtata type which is contain similar and dis-similar data element
+-tuple which is represent by () braces.
+
+- tupale which is orderable,indexable,but immuteble
+in tuple we cant not change it value.
+
+- so tuple does not have append,remove,kind of method.
+
+set method:
+-   set is a collection data type witch is represent by {} braces.
+-   set which is unorderable,unindexable,immuteble.
+-   if we want to remove duplicate element from the set we can use set.
+  
+   #set: not impotant topic
+   #set:me add kar sakte he method se par change nhi kar sakte.
+
+   #immutable: mins change add modifiy but set is immutable.
+
+
+
+
+"""
